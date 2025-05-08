@@ -2369,3 +2369,14 @@ var defaultOptions = {
 /***/ })
 /******/ ])["default"];
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize video carousel
+    var videoCarousel = bulmaCarousel.attach('#video-carousel', {
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        infinite: true,
+        autoplay: false,
+        navigation: true
+    });
+});

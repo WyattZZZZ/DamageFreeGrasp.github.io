@@ -133,5 +133,13 @@ body {
   font-size: smaller;
 }
 
+.carousel .item {
+    padding: 2rem;
+}
 
-
+.overlay {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+}
