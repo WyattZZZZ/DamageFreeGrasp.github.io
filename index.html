@@ -289,23 +289,27 @@
             <p>
               The "Experiments" section aims to evaluate the proposed multimodal damage-free grasping framework, focusing on LLMs reasoning-based performance, grasp force control, and comparing the effectiveness of different estimation pathways. The experiments were conducted on a custom dataset comprising 25 typical produce categories. Overall, the framework significantly outperforms state-of-the-art baselines in both volume estimation accuracy and damage-free grasp success rate.
             </p>
+            <br>
           <h3 class="title is-4">Verification of framework validity</h3>
           <img src="static/images/WechatIMG94.jpg" />
           <div class="content has-text-justified">
+            <br>
+            <table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="width: 60%; vertical-align: top; padding-right: 20px;">
+      <p>The framework's validity is demonstrated by its success in achieving truly damage-free and stable grasping across diverse, fragile produce. The key findings include:</p>
+      <ul>
+        <li>The system's core component, the <strong>point-cloud-based volume estimation module</strong>, successfully reduces reliance on LLMs' general commonsense reasoning by directly leveraging spatial geometry, leading to significantly improved perception quality and estimation precision.</li>
+        <li>A <strong>hybrid multi-agent collaboration mechanism</strong> efficiently coordinates the perception, reasoning, and control agents. This collaboration improves the framework's overall efficiency and general applicability in complex perception and parameter reasoning tasks.</li>
+        <li>The system demonstrated <strong>excellent stability and robustness</strong> across a custom dataset of 25 typical produce categories, validating its damage-free capability.</li>
+      </ul>
+    </td>
 
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <p>The framework's validity is demonstrated by its success in achieving truly damage-free and stable grasping across diverse, fragile produce. The key findings include:</p>
-                <ul>
-                  <li>The system's core component, the <strong>point-cloud-based volume estimation module</strong>, successfully reduces reliance on LLMs' general commonsense reasoning by directly leveraging spatial geometry, leading to significantly improved perception quality and estimation precision.</li>
-                  <li>A <strong>hybrid multi-agent collaboration mechanism</strong> efficiently coordinates the perception, reasoning, and control agents. This collaboration improves the framework's overall efficiency and general applicability in complex perception and parameter reasoning tasks.</li>
-                  <li>The system demonstrated <strong>excellent stability and robustness</strong> across a custom dataset of 25 typical produce categories, validating its damage-free capability.</li>
-                </ul>
-              </tr>
-                  <img src="static/images/5.png">
-                </td>
-              </tr>
-            </table>
+    <td style="width: 40%; vertical-align: top; text-align: center;">
+      <img src="static/images/5.png" alt="Framework Diagram" style="max-width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
           </div>
 
           <br>
@@ -316,11 +320,11 @@
             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <p>
-    <p>Your framework is positioned as the first adaptive damage-free grasping solution that integrates Large Language Models (LLMs) with multimodal perception for produce[cite: 2, 26].</p>
+    <p>Our framework is positioned as the first adaptive damage-free grasping solution that integrates Large Language Models (LLMs) with multimodal perception for produce[cite: 2, 26].</p>
     <ul>
-        <li><strong>Key Advantage:<strong> Unlike traditional approaches that rely on geometric heuristics or fixed-force strategies, which often cause instability or damage, your model intelligently infers the **minimal stable grasping force**[cite: 3].</li>
-        <li><strong>Quantitative Outperformance:<strong> The framework outperform in two critical metrics: volume estimation accuracy and damage-free grasp success rate[cite: 6].</li>
-        <li><strong>Validation:<strong> This work validates the effectiveness of combining LLMs and multimodal perception, offering an adaptable and generalizable solution that ensures stable grasping while actively preventing damage[cite: 7, 85].</li>
+        <li><strong>Key Advantage:</strong> Unlike traditional approaches that rely on geometric heuristics or fixed-force strategies, which often cause instability or damage, your model intelligently infers the minimal stable grasping force.</li>
+        <li><strong>Quantitative Outperformance:</strong> The framework outperform in two critical metrics: volume estimation accuracy and damage-free grasp success rate.</li>
+        <li><strong>Validation:</strong> This work validates the effectiveness of combining LLMs and multimodal perception, offering an adaptable and generalizable solution that ensures stable grasping while actively preventing damage.</li>
     </ul>
                 </p>
               </tr>
